@@ -1,6 +1,7 @@
 # vscode-buildx-debugger experiment
 
-**This requires patchsets proposed to Docker Buildx**
+- **This requires patchsets proposed to Docker Buildx**
+  - https://github.com/docker/buildx/pull/1656
 
 VS Code extension for interactive debugging of Dockerfile based on Docker Buildx (under proposal).
 
@@ -13,7 +14,8 @@ VS Code extension for interactive debugging of Dockerfile based on Docker Buildx
 
 ## Requirements
 
-- Docker Buildx (patched)
+- Docker Buildx
+  - patched with https://github.com/docker/buildx/pull/1656
 
 ## Extension Settings
 
